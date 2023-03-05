@@ -1,0 +1,30 @@
+body {
+    display: column;
+}
+
+form {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    margin-top: 15px;
+}
+
+span > input {
+    margin-right: 5px;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+}
